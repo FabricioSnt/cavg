@@ -55,13 +55,13 @@ require './conbanco.php';
                                 <p class="card-text"><p><b>Km:</b> <?php echo $linha['km']; ?></p>
                                 <p class="card-text"><p><b>Ano:</b> <?php echo $linha['ano']; ?></p>
                                 <a href="edita.php?id=<?php echo $linha['id']; ?>"> <button type="button" class="btn btn-warning btn-sm">Editar</button></a>
-                                <a href="excluir.php?id=<?php echo $linha['id']; ?>" data-confirm="Tem certeza de que deseja excluir o item selecionado?"><button type=">button" class="btn btn-danger btn-sm">Excluir</button></a>
+                                <a href="excluir.php?id=<?php echo $linha['id']; ?>"><button type="button" class="btn btn-danger btn-sm">Excluir</button></a>
 
                             </div>
                         </div>
 
                     </div>
-
+              
                     <?php
                 }
                 ?>
@@ -80,5 +80,10 @@ require './conbanco.php';
 
             </div>
         </footer>
+
+
+
+
+
     </body>
 </html>
